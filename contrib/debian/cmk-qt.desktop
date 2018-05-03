@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=cmk
+Comment=cmk P2P Cryptocurrency
+Comment[fr]=cmk, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=cmk, eşten eşe kriptografik sanal para birimi
+Exec=cmk-qt %u
+Terminal=false
+Type=Application
+Icon=dash128
+MimeType=x-scheme-handler/cmk;
+Categories=Office;Finance;

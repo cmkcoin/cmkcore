@@ -1,0 +1,22 @@
+[Unit]
+Description=cmk's distributed currency daemon
+After=network.target
+
+[Service]
+User=cmkCore
+Group=cmkCore
+
+Type=forking
+PIDFile=/var/lib/cmkd/cmkd.pid
+ExecStart=/usr/bin/cmkd -daemon -pid=/var/lib/cmkd/cmkd.pid \
+-conf=/etc/cmkCore/cmk.conf -datadir=/var/lib/cmkd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

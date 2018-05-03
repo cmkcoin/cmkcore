@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/cmk_bg.qm</file>
+        <file alias="de">locale/cmk_de.qm</file>
+        <file alias="en">locale/cmk_en.qm</file>
+        <file alias="es">locale/cmk_es.qm</file>
+        <file alias="fi">locale/cmk_fi.qm</file>
+        <file alias="fr">locale/cmk_fr.qm</file>
+        <file alias="it">locale/cmk_it.qm</file>
+        <file alias="ja">locale/cmk_ja.qm</file>
+        <file alias="pl">locale/cmk_pl.qm</file>
+        <file alias="pt">locale/cmk_pt.qm</file>
+        <file alias="ru">locale/cmk_ru.qm</file>
+        <file alias="sk">locale/cmk_sk.qm</file>
+        <file alias="sv">locale/cmk_sv.qm</file>
+        <file alias="vi">locale/cmk_vi.qm</file>
+        <file alias="zh_CN">locale/cmk_zh_CN.qm</file>
+        <file alias="zh_TW">locale/cmk_zh_TW.qm</file>
+    </qresource>
+</RCC>

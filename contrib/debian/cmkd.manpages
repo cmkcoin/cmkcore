@@ -1,0 +1,3 @@
+debian/manpages/cmkd.1
+debian/manpages/cmk.conf.5
+debian/manpages/cmk-cli.1
